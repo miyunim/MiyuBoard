@@ -11,7 +11,8 @@
 				{{ user.username }} 로그인 중 | 
 				<a href="/logout/">로그아웃</a> |
 			{% else %}
-				<a href="/login/">로그인</a>
+				<a href="/login/">로그인</a> | 
+                <a href="/register/">회원가입</a>
 			{% endif %}
 		</div>
 		{% block content %}{% endblock %}

@@ -9,6 +9,7 @@ urlpatterns = patterns('',
 	(r'^$', main_page),
 	(r'^login/$', 'django.contrib.auth.views.login'),
 	(r'^logout/$', logout_page),
+	(r'^register/$', register_page),
     # Examples:
     # url(r'^$', 'MiyuBoard.views.home', name='home'),
     # url(r'^MiyuBoard/', include('MiyuBoard.foo.urls')),
